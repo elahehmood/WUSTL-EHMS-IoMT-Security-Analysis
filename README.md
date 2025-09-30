@@ -2,9 +2,9 @@
 
 ## Abstract 📄
 
-[span_1](start_span)This project focuses on the analysis of the **2020 WUSTL EHMS dataset**, a critical resource for research in the cybersecurity of the Internet of Medical Things (IoMT)[span_1](end_span). [span_2](start_span)The data is sourced from an Enhanced Health Monitoring System (EHMS) that collects patient information in real-time[span_2](end_span). [span_3](start_span)Our primary objective is to identify the most effective methods for processing and classifying this data[span_3](end_span).
+<span id="span_1">This project focuses on the analysis of the **2020 WUSTL EHMS dataset**, a critical resource for research in the cybersecurity of the Internet of Medical Things (IoMT).</span> <span id="span_2">The data is sourced from an Enhanced Health Monitoring System (EHMS) that collects patient information in real-time.</span> <span id="span_3">Our primary objective is to identify the most effective methods for processing and classifying this data.</span>
 
-**[span_4](start_span)Keywords**: 2020 WUSTL EHMS, IoMT Cybersecurity, Enhanced Health Monitoring System, Data Classification[span_4](end_span)
+**<span id="span_4">Keywords</span>**: 2020 WUSTL EHMS, IoMT Cybersecurity, Enhanced Health Monitoring System, Data Classification
 
 ---
 
@@ -21,46 +21,46 @@
 
 ## Introduction 💡
 
-[span_5](start_span)Data analysis is a fundamental tool for extracting valuable insights from data[span_5](end_span). [span_6](start_span)This project delves into a dataset containing information about attacks and the medical status of patients[span_6](end_span). [span_7](start_span)The goal is to leverage machine learning models to predict and identify these attacks within healthcare data[span_7](end_span). [span_8](start_span)[span_9](start_span)The timely detection of such threats is paramount in medical and hospital environments, as it can be a life-saving intervention[span_8](end_span)[span_9](end_span).
+<span id="span_5">Data analysis is a fundamental tool for extracting valuable insights from data.</span> <span id="span_6">This project delves into a dataset containing information about attacks and the medical status of patients.</span> <span id="span_7">The goal is to leverage machine learning models to predict and identify these attacks within healthcare data.</span> <span id="span_8"><span id="span_9">The timely detection of such threats is paramount in medical and hospital environments, as it can be a life-saving intervention.</span></span>
 
 ### Project Objectives
 
-[span_10](start_span)The core aim is to design and implement machine learning models capable of predicting attacks and medical emergencies from health data[span_10](end_span). Key steps in this process include:
-* **[span_11](start_span)Data Preprocessing**[span_11](end_span)
-* **[span_12](start_span)Anomaly Detection**[span_12](end_span)
-* **[span_13](start_span)Model Evaluation**[span_13](end_span)
+<span id="span_10">The core aim is to design and implement machine learning models capable of predicting attacks and medical emergencies from health data.</span> Key steps in this process include:
 
-[span_14](start_span)We will utilize tools like **LazyPredict** for an initial comparison and evaluate the final models based on metrics such as **Accuracy** and **F1-Score**[span_14](end_span).
+* **<span id="span_11">Data Preprocessing</span>**
+* **<span id="span_12">Anomaly Detection</span>**
+* **<span id="span_13">Model Evaluation</span>**
+
+<span id="span_14">We will utilize tools like **LazyPredict** for an initial comparison and evaluate the final models based on metrics such as **Accuracy** and **F1-Score**.</span>
 
 ### Importance and Application
 
-[span_15](start_span)The ability to predict medical attacks is of immense importance, particularly in critical care and hospital settings[span_15](end_span). [span_16](start_span)This project aims to provide a framework that assists researchers and medical professionals in detecting threats more rapidly and accurately, thereby enabling prompt and effective treatment[span_16](end_span).
+<span id="span_15">The ability to predict medical attacks is of immense importance, particularly in critical care and hospital settings.</span> <span id="span_16">This project aims to provide a framework that assists researchers and medical professionals in detecting threats more rapidly and accurately, thereby enabling prompt and effective treatment.</span>
 
 ---
 
 ## Comparison of Prediction Methods 📊
 
-[span_17](start_span)Predictive analytics plays a cornerstone role in modern healthcare, aiding in everything from disease prevention to resource management[span_17](end_span). [span_18](start_span)The accuracy of these predictions can significantly influence clinical decisions[span_18](end_span). Here's a comparison of several common machine learning algorithms:
+<span id="span_17">Predictive analytics plays a cornerstone role in modern healthcare, aiding in everything from disease prevention to resource management.</span> <span id="span_18">The accuracy of these predictions can significantly influence clinical decisions.</span> Here's a comparison of several common machine learning algorithms:
 
-* [span_19](start_span)Logistic Regression[span_19](end_span)
-* [span_20](start_span)Decision Tree[span_20](end_span)
-* [span_21](start_span)Random Forest[span_21](end_span)
-* [span_22](start_span)Support Vector Machines (SVM)[span_22](end_span)
-* [span_23](start_span)Artificial Neural Networks (ANN)[span_23](end_span)
-* [span_24](start_span)Gradient Boosting[span_24](end_span)
-* [span_25](start_span)K-Nearest Neighbors (KNN)[span_25](end_span)
+* <span id="span_19">Logistic Regression</span>
+* <span id="span_20">Decision Tree</span>
+* <span id="span_21">Random Forest</span>
+* <span id="span_22">Support Vector Machines (SVM)</span>
+* <span id="span_23">Artificial Neural Networks (ANN)</span>
+* <span id="span_24">Gradient Boosting</span>
+* <span id="span_25">K-Nearest Neighbors (KNN)</span>
 
-| Criteria | Logistic Regression | Decision Tree | Random Forest | SVM | ANN | Gradient Boosting | KNN |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Implementation Simplicity**| [span_26](start_span)Relatively Simple[span_26](end_span) | [span_27](start_span)Very Simple[span_27](end_span) | [span_28](start_span)More Complex[span_28](end_span) | [span_29](start_span)More Complex[span_29](end_span) | [span_30](start_span)Complex[span_30](end_span) | [span_31](start_span)More Complex[span_31](end_span) | [span_32](start_span)Simple[span_32](end_span) |
-| **Interpretability** | [span_33](start_span)High[span_33](end_span) | [span_34](start_span)High[span_34](end_span) | [span_35](start_span)Medium[span_35](end_span) | [span_36](start_span)Low[span_36](end_span) | [span_37](start_span)Low[span_37](end_span) | [span_38](start_span)Medium[span_38](end_span) | [span_39](start_span)Low[span_39](end_span) |
-| **Handling Large Data** | [span_40](start_span)Limited[span_40](end_span) | [span_41](start_span)Medium[span_41](end_span) | [span_42](start_span)Good[span_42](end_span) | [span_43](start_span)Good[span_43](end_span) | [span_44](start_span)Very Good[span_44](end_span) | [span_45](start_span)Very Good[span_45](end_span) | [span_46](start_span)Limited[span_46](end_span) |
-| **Resistance to Overfitting**| [span_47](start_span)Low[span_47](end_span) | [span_48](start_span)Low[span_48](end_span) | [span_49](start_span)High[span_49](end_span) | [span_50](start_span)Medium[span_50](end_span) | [span_51](start_span)Low[span_51](end_span) | [span_52](start_span)Very High[span_52](end_span) | [span_53](start_span)Low[span_53](end_span) |
-| **Prediction Accuracy** | [span_54](start_span)Medium[span_54](end_span) | [span_55](start_span)Lower[span_55](end_span) | [span_56](start_span)High[span_56](end_span) | [span_57](start_span)High[span_57](end_span) | [span_58](start_span)Very High[span_58](end_span) | [span_59](start_span)Very High[span_59](end_span) | [span_60](start_span)Medium[span_60](end_span) |
-| **Training Speed** | [span_61](start_span)Very Fast[span_61](end_span) | [span_62](start_span)Fast[span_62](end_span) | [span_63](start_span)Faster[span_63](end_span) | [span_64](start_span)Slower[span_64](end_span) | [span_65](start_span)Slow[span_65](end_span) | [span_66](start_span)Slower[span_66](end_span) | [span_67](start_span)Very Fast[span_67](end_span) |
-| **Need for Parameter Tuning**| [span_68](start_span)Low[span_68](end_span) | [span_69](start_span)Low[span_69](end_span) | [span_70](start_span)Medium[span_70](end_span) | [span_71](start_span)High[span_71](end_span) | [span_72](start_span)High[span_72](end_span) | [span_73](start_span)High[span_73](end_span) | [span_74](start_span)Low[span_74](end_span) |
-| **Suitability for Non-linear Data** | [span_75](start_span)Weak[span_75](end_span) | [span_76](start_span)Medium[span_76](end_span) | [span_77](start_span)Good[span_77](end_span) | [span_78](start_span)Very Good[span_78](end_span) | [span_79](start_span)Very Good[span_79](end_span) | [span_80](start_span)Very Good[span_80](end_span) | [span_81](start_span)Weak[span_81](end_span) |
-
+| Criteria                            | Logistic Regression                         | Decision Tree                         | Random Forest                          | SVM                                    | ANN                                 | Gradient Boosting                      | KNN                                 |
+| :---------------------------------- | :------------------------------------------ | :------------------------------------ | :------------------------------------- | :------------------------------------- | :---------------------------------- | :------------------------------------- | :---------------------------------- |
+| **Implementation Simplicity**       | <span id="span_26">Relatively Simple</span> | <span id="span_27">Very Simple</span> | <span id="span_28">More Complex</span> | <span id="span_29">More Complex</span> | <span id="span_30">Complex</span>   | <span id="span_31">More Complex</span> | <span id="span_32">Simple</span>    |
+| **Interpretability**                | <span id="span_33">High</span>              | <span id="span_34">High</span>        | <span id="span_35">Medium</span>       | <span id="span_36">Low</span>          | <span id="span_37">Low</span>       | <span id="span_38">Medium</span>       | <span id="span_39">Low</span>       |
+| **Handling Large Data**             | <span id="span_40">Limited</span>           | <span id="span_41">Medium</span>      | <span id="span_42">Good</span>         | <span id="span_43">Good</span>         | <span id="span_44">Very Good</span> | <span id="span_45">Very Good</span>    | <span id="span_46">Limited</span>   |
+| **Resistance to Overfitting**       | <span id="span_47">Low</span>               | <span id="span_48">Low</span>         | <span id="span_49">High</span>         | <span id="span_50">Medium</span>       | <span id="span_51">Low</span>       | <span id="span_52">Very High</span>    | <span id="span_53">Low</span>       |
+| **Prediction Accuracy**             | <span id="span_54">Medium</span>            | <span id="span_55">Lower</span>       | <span id="span_56">High</span>         | <span id="span_57">High</span>         | <span id="span_58">Very High</span> | <span id="span_59">Very High</span>    | <span id="span_60">Medium</span>    |
+| **Training Speed**                  | <span id="span_61">Very Fast</span>         | <span id="span_62">Fast</span>        | <span id="span_63">Faster</span>       | <span id="span_64">Slower</span>       | <span id="span_65">Slow</span>      | <span id="span_66">Slower</span>       | <span id="span_67">Very Fast</span> |
+| **Need for Parameter Tuning**       | <span id="span_68">Low</span>               | <span id="span_69">Low</span>         | <span id="span_70">Medium</span>       | <span id="span_71">High</span>         | <span id="span_72">High</span>      | <span id="span_73">High</span>         | <span id="span_74">Low</span>       |
+| **Suitability for Non-linear Data** | <span id="span_75">Weak</span>              | <span id="span_76">Medium</span>      | <span id="span_77">Good</span>         | <span id="span_78">Very Good</span>    | <span id="span_79">Very Good</span> | <span id="span_80">Very Good</span>    | <span id="span_81">Weak</span>      |
 
 ---
 
@@ -69,27 +69,29 @@
 ### Data Preprocessing
 
 This is a vital first step. The dataset contains missing values and anomalies that must be addressed:
-* **[span_82](start_span)Handling Missing Values**: We use the **mean** for numerical columns and the **mode** for non-numerical ones[span_82](end_span).
-* **[span_83](start_span)Replacing Zeros**: To avoid computational issues, zero values are replaced with the column's mean[span_83](end_span).
-* **[span_84](start_span)Data Normalization**: We apply **MinMaxScaler** to normalize the feature set[span_84](end_span).
+
+* **<span id="span_82">Handling Missing Values</span>**: We use the **mean** for numerical columns and the **mode** for non-numerical ones.
+* **<span id="span_83">Replacing Zeros</span>**: To avoid computational issues, zero values are replaced with the column's mean.
+* **<span id="span_84">Data Normalization</span>**: We apply **MinMaxScaler** to normalize the feature set.
 
 ### Feature Selection
 
-We carefully select features relevant to identifying attacks. **[span_85](start_span)One-Hot Encoding** is used for categorical variables to improve model performance, and features with low correlation to the target variable are removed[span_85](end_span).
+We carefully select features relevant to identifying attacks. **<span id="span_85">One-Hot Encoding</span>** is used for categorical variables to improve model performance, and features with low correlation to the target variable are removed.
 
 ### Modeling and Evaluation
 
 We employ a range of machine learning models for prediction:
-* **[span_86](start_span)LazyPredict**: For a quick, high-level comparison[span_86](end_span).
-* **[span_87](start_span)Random Forest**[span_87](end_span)
-* **[span_88](start_span)Logistic Regression**[span_88](end_span)
-* **[span_89](start_span)SVM**[span_89](end_span)
 
-[span_90](start_span)The performance of these models is rigorously evaluated using metrics like **Accuracy**, **F1-Score**, **Precision**, and **Recall**[span_90](end_span).
+* **<span id="span_86">LazyPredict</span>**: For a quick, high-level comparison.
+* **<span id="span_87">Random Forest</span>**
+* **<span id="span_88">Logistic Regression</span>**
+* **<span id="span_89">SVM</span>**
+
+<span id="span_90">The performance of these models is rigorously evaluated using metrics like **Accuracy**, **F1-Score**, **Precision**, and **Recall**.</span>
 
 ### Anomaly Detection
 
-[span_91](start_span)To enhance model performance, we use **Isolation Forest** and **One-Class SVM** to identify and remove outliers from the training data[span_91](end_span).
+<span id="span_91">To enhance model performance, we use **Isolation Forest** and **One-Class SVM** to identify and remove outliers from the training data.</span>
 
 ---
 
@@ -97,22 +99,25 @@ We employ a range of machine learning models for prediction:
 
 Our analysis revealed that several models performed exceptionally well.
 
-1.  **Random Forest Classifier**:
-    * **[span_92](start_span)Accuracy**: Achieved an impressive **0.9963**[span_92](end_span).
-    * **[span_93](start_span)Performance**: Showed high precision, recall, and f1-scores for all classes[span_93](end_span). [span_94](start_span)The confusion matrix confirmed a low error rate[span_94](end_span).
-    * **[span_95](start_span)ROC Curve**: The Area Under the Curve (AUC) was close to 1, demonstrating excellent class separation capability[span_95](end_span).
+1. **Random Forest Classifier**:
 
-2.  **AdaBoost Classifier**:
-    * **[span_96](start_span)Accuracy**: Reached a perfect **1.0**[span_96](end_span).
-    * **[span_97](start_span)Performance**: The confusion matrix and ROC curve reflected this perfect score[span_97](end_span).
+   * **<span id="span_92">Accuracy</span>**: Achieved an impressive **0.9963**.
+   * **<span id="span_93">Performance</span>**: Showed high precision, recall, and f1-scores for all classes. <span id="span_94">The confusion matrix confirmed a low error rate.</span>
+   * **<span id="span_95">ROC Curve</span>**: The Area Under the Curve (AUC) was close to 1, demonstrating excellent class separation capability.
 
-3.  **Gradient Boosting Classifier**:
-    * **[span_98](start_span)Accuracy**: Also achieved a perfect **1.0**, performing on par with AdaBoost[span_98](end_span).
+2. **AdaBoost Classifier**:
+
+   * **<span id="span_96">Accuracy</span>**: Reached a perfect **1.0**.
+   * **<span id="span_97">Performance</span>**: The confusion matrix and ROC curve reflected this perfect score.
+
+3. **Gradient Boosting Classifier**:
+
+   * **<span id="span_98">Accuracy</span>**: Also achieved a perfect **1.0**, performing on par with AdaBoost.
 
 ### Overall Analysis
 
-* [span_99](start_span)All three top models—Random Forest, AdaBoost, and Gradient Boosting—are excellent candidates for this task[span_99](end_span).
-* [span_100](start_span)For real-world applications, further tests are necessary to evaluate their robustness against noise or unseen data[span_100](end_span).
+* <span id="span_99">All three top models—Random Forest, AdaBoost, and Gradient Boosting—are excellent candidates for this task.</span>
+* <span id="span_100">For real-world applications, further tests are necessary to evaluate their robustness against noise or unseen data.</span>
 
 ---
 
@@ -120,23 +125,24 @@ Our analysis revealed that several models performed exceptionally well.
 
 ### Conclusion
 
-[span_101](start_span)Our analysis demonstrates that models like **Random Forest**, **AdaBoost**, and **Gradient Boosting** are highly effective for classifying data in this project[span_101](end_span). [span_102](start_span)The high accuracy and strong performance metrics indicate their potential for effective prediction on the test data[span_102](end_span).
+<span id="span_101">Our analysis demonstrates that models like **Random Forest**, **AdaBoost**, and **Gradient Boosting** are highly effective for classifying data in this project.</span> <span id="span_102">The high accuracy and strong performance metrics indicate their potential for effective prediction on the test data.</span>
 
 ### Future Suggestions
 
 To build upon this work, we recommend the following:
-* **[span_103](start_span)Enhanced Generalizability Testing**: Evaluate the models on different datasets and use **k-fold cross-validation**[span_103](end_span).
-* **[span_104](start_span)Advanced Optimization**: Employ techniques like **Bayesian Optimization** or **Random Search** for hyperparameter tuning and explore more powerful models like **XGBoost** or **LightGBM**[span_104](end_span).
-* **[span_105](start_span)In-depth Feature Analysis**: Use tools like **SHAP** or **Permutation Importance** to investigate feature importance and simplify the model by removing less impactful features[span_105](end_span).
-* **[span_106](start_span)Managing New and Noisy Data**: Simulate real-world scenarios with noisy data to check model performance and stability[span_106](end_span).
-* **[span_107](start_span)Deployment**: Develop a **real-time prediction system** and implement the model in a REST service or an application for operational use[span_107](end_span).
+
+* **<span id="span_103">Enhanced Generalizability Testing</span>**: Evaluate the models on different datasets and use **k-fold cross-validation**.
+* **<span id="span_104">Advanced Optimization</span>**: Employ techniques like **Bayesian Optimization** or **Random Search** for hyperparameter tuning and explore more powerful models like **XGBoost** or **LightGBM**.
+* **<span id="span_105">In-depth Feature Analysis</span>**: Use tools like **SHAP** or **Permutation Importance** to investigate feature importance and simplify the model by removing less impactful features.
+* **<span id="span_106">Managing New and Noisy Data</span>**: Simulate real-world scenarios with noisy data to check model performance and stability.
+* **<span id="span_107">Deployment</span>**: Develop a **real-time prediction system** and implement the model in a REST service or an application for operational use.
 
 ---
 
 ## References 📚
 
-* James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). *An Introduction to Statistical Learning*. [span_108](start_span)Springer.[span_108](end_span)
-* Breiman, L. (2001). Random Forests. *[span_109](start_span)Machine Learning*, 45(1), 5-32.[span_109](end_span)
-* Cortes, C., & Vapnik, V. (1995). Support-Vector Networks. *[span_110](start_span)Machine Learning*, 20(3), 273-297.[span_110](end_span)
-* Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. [span_111](start_span)MIT Press.[span_111](end_span)
-* Friedman, J. H. (2001). Greedy Function Approximation: A Gradient Boosting Machine. *[span_112](start_span)Annals of Statistics*, 29(5), 1189-1232.[span_112](end_span)
+* James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). *An Introduction to Statistical Learning*. <span id="span_108">Springer.</span>
+* Breiman, L. (2001). Random Forests. *<span id="span_109">Machine Learning</span>*, 45(1), 5-32.
+* Cortes, C., & Vapnik, V. (1995). Support-Vector Networks. *<span id="span_110">Machine Learning</span>*, 20(3), 273-297.
+* Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. <span id="span_111">MIT Press.</span>
+* Friedman, J. H. (2001). Greedy Function Approximation: A Gradient Boosting Machine. *<span id="span_112">Annals of Statistics</span>*, 29(5), 1189-1232.
