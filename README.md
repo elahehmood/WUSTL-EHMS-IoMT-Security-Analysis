@@ -15,6 +15,7 @@
 * [Proposed Methodology](#proposed-methodology-)
 * [Best Algorithm Analysis](#best-algorithm-analysis-)
 * [Conclusion & Future Work](#conclusion--future-work-)
+* [Jupyter Notebook](#jupyter--notebook-)
 * [References](#references-)
 
 ---
