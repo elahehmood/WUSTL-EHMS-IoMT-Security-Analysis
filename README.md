@@ -138,6 +138,18 @@ To build upon this work, we recommend the following:
 * **<span id="span_107">Deployment</span>**: Develop a **real-time prediction system** and implement the model in a REST service or an application for operational use.
 
 ---
+## 📓 Jupyter Notebook
+
+You can explore the full analysis in the Jupyter Notebook:
+
+[WUSTL-EHMS-IoMT-Security-Analysis.ipynb](WUSTL-EHMS-IoMT-Security-Analysis.ipynb)
+
+### Run Online 🚀
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elahehmood/WUSTL-EHMS-IoMT-Security-Analysis/blob/main/WUSTL-EHMS-IoMT-Security-Analysis.ipynb)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/elahehmood/WUSTL-EHMS-IoMT-Security-Analysis/HEAD?labpath=WUSTL-EHMS-IoMT-Security-Analysis.ipynb)
+
 
 ## References 📚
 
